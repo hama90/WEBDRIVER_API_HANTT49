@@ -14,7 +14,7 @@ public class Topic_01_CheckEnvironment {
 
 	@BeforeTest
 	public void beforeTest() {
-		driver =  new FirefoxDriver();
+		driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.get("http://live.guru99.com/");
